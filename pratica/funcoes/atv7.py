@@ -1,5 +1,6 @@
 def uniao(produtos, precos):
     for produto, preco in zip(produtos, precos):
+        
         print(f"{produto.strip()}: {preco.strip()}")
 
 produtos = input("Digite os produtos por vírgula: ").split(', ')
